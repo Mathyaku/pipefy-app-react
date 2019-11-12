@@ -1,0 +1,53 @@
+.card-container {
+    position: relative;
+    background: #FFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
+    border-top: 20px solid rgba(230, 236, 245, 0.4);
+    cursor: grab;
+}
+
+.card-container.is-dragging {
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    padding-top: 31px;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: grabbing;
+}
+
+.card-container.is-dragging p,
+.card-container.is-dragging img,
+.card-container.is-dragging span {
+    opacity: 0;
+}
+
+.card-container p {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.card-container header {
+    position: absolute;
+    top: -22px;
+    left: 15px;
+}
+
+.card-container header span {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+.card-container img{
+    height: 24px;
+    width: 24px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
