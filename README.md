@@ -5,7 +5,7 @@
 <p>
   Pipefy - Application to control your tasks using Drag and Drop functionality.
   
-  Made using React framework and NodeJS.
+  Made using React framework.
 </p>
 
 <p align="center">
